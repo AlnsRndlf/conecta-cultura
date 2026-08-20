@@ -4,79 +4,74 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Talleres y actividades de Conecta Cultura">
-        <title>Inicio | Conecta Cultura</title>
+        <title>Noticias | Conecta Cultura</title>
         <link rel="stylesheet" href="assets/css/estilos.css">
     </head>
 
     <body>
-        <a class="salto-contenido" href="#contenido-principal">
-            Ir al contenido
-        </a>
+        <a class="salto-contenido" href="#contenido-principal">Ir al contenido</a>
 
         <header class="cabecera-sitio">
             <a class="marca" href="index.html">Conecta Cultura</a>
 
             <nav aria-label="Navegación principal">
                 <ul class="menu">
-                    <li>
-                        <a href="index.html" aria-current="page">Inicio</a>
-                    </li>
+                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="noticias.html">Noticias</a></li>
+                    <li>
+                        <a href="noticias.html" aria-current="page">noticias</a>
+                    </li>
                 </ul>
             </nav>
         </header>
 
         <main id="contenido-principal">
-            <section class="presentacion">
-                <p class="etiqueta">Aprendizaje y comunidad</p>
-                <h1>Experiencias que conectan personas</h1>
-                <p>
-                    Descubre talleres locales de cultura, tecnología y bienestar.
-                </p>
-                <a class="boton" href="noticias.html">Explorar novedades</a>
-            </section>
+            <header class="encabezado-pagina">
+                <p class="etiqueta">Noticias</p>
+                <h1>Noticias de la comunidad</h1>
+                <p>Conoce las últimas actividades y experiencias de Conecta Cultura.</p>
+            </header>
 
-            <section aria-labelledby="titulo-actividades">
-                <h2 id="titulo-actividades">Actividades destacadas</h2>
+            <section aria-labelledby="titulo-novedades">
+                <h2 id="titulo-novedades">Últimas novedades</h2>
 
                 <div class="grilla-tarjetas">
                     <article class="tarjeta">
-                        <h3>Fotografía urbana</h3>
+                        <h3>Nuevo taller de fotografía urbana</h3>
                         <img
                             src="assets/img/fotografia.jpg"
-                            alt="Participantes fotografiando edificios del barrio"
+                            alt="Participantes de un taller de fotografía urbana"
                         >
                         <p>
-                            Aprende composición mientras documentas tu entorno.
+                            <time datetime="2026-08-12">12 de agosto de 2026</time>
+                        </p>
+                        <p>
+                            Un recorrido práctico para observar y registrar el barrio.
                         </p>
                         <a href="noticia-detalle-1.html">
-                            Conocer el taller
+                            Leer noticia sobre el taller
                         </a>
                     </article>
 
                     <article class="tarjeta">
-                        <h3>Huerto comunitario</h3>
+                        <h3>Jornada de huerto comunitario</h3>
                         <img
                             src="assets/img/huerto.jpg"
-                            alt="Manos plantando una hierba en un huerto comunitario"
+                            alt="Personas participando en un huerto comunitario"
                         >
                         <p>
-                            Comparte técnicas de cultivo sustentable con tus vecinos.
+                            <time datetime="2026-08-15">15 de agosto de 2026</time>
+                        </p>
+                        <p>
+                            Una experiencia para compartir técnicas de cultivo sustentable
+                            con la comunidad.
                         </p>
                         <a href="noticia-detalle-2.html">
-                            Conocer la jornada
+                            Leer noticia sobre la jornada
                         </a>
                     </article>
                 </div>
             </section>
-
-            <aside class="aviso" aria-labelledby="titulo-aviso">
-                <h2 id="titulo-aviso">¿Quieres proponer una actividad?</h2>
-                <p>
-                    Pronto habilitaremos un formulario para organizaciones locales.
-                </p>
-            </aside>
         </main>
 
         <footer class="pie-sitio">
@@ -84,9 +79,7 @@
 
             <address>
                 Contacto:
-                <a href="mailto:hola@conectacultura.cl">
-                    hola@conectacultura.cl
-                </a>
+                <a href="mailto:hola@conectacultura.cl">hola@conectacultura.cl</a>
             </address>
 
             <p>
@@ -95,6 +88,7 @@
 
             DSY1104 · Desarrollo FullStack II · Guía 2
             Conecta Cultura | 14
+
         </footer>
 
         <script src="assets/js/app.js"></script>
