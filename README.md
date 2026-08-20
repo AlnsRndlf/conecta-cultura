@@ -10,3 +10,5 @@ Nidea. Es un proyecto el cual se irá trabajando a lo largo del semestre para el
 - Archivo JavaScript enlazado.
 ## Ejecución
 Abrir `index.html` en el navegador o utilizar Live Server.
+## Fuente de las imagenes
+fueron sacadas de google
